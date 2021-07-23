@@ -33,3 +33,7 @@ func (l *Logger) Info(str string) {
 func (l *Logger) Error(err error) {
 	log.Println(err)
 }
+
+func (l *Logger) Warn(str string) {
+	log.Println(str)
+}
